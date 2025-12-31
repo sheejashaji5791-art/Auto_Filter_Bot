@@ -36,7 +36,7 @@ class script(object):
 
     ABOUT_TXT = """<b>
 <blockquote>🎭 Mʏ Nᴀᴍᴇ: <a href=https://t.me/{}>{}</a></blockquote>
-<blockquote>🤖 Cʀᴇᴀᴛᴏʀ: <a href={}>❥︵₣σrεvëɾ⌁</a></blockquote> 
+<blockquote>🤖 Cʀᴇᴀᴛᴏʀ: <a href={}>❥︵₣σrεvëɾ⌁</a></blockquote>
 <blockquote>⚙️ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a></blockquote>
 <blockquote>🍿 Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a></blockquote>
 <blockquote>⚙️ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://heroku.com/'>𝐇𝖾𝗋ⱺ𝗄υ</a></blockquote>
