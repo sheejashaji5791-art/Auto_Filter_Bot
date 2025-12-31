@@ -14,7 +14,7 @@ class script(object):
  ◈ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/Aswanthcreator'>❥︵₣σrεvëɾ⌁</a>
 ‿︵‿︵‿︵‿୨❤୧‿︵‿︵‿︵‿
 </b>"""
-
+    EARN_TXT = """<b>Yᴏᴜ ᴄᴀɴ Eᴀʀɴ Mᴏɴᴇʏ</b>"""
     HELP_TXT = """<b>
     
 ✨ ʜᴏᴡ ᴛᴏ ʀᴇǫᴜᴇꜱᴛ ᴅʀᴀᴍᴀꜱ & ᴍᴏᴠɪᴇꜱ ✨  
