@@ -10,7 +10,11 @@ class script(object):
 
 <b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>"""
 
-    
+    OWNER_TXT = """<b>┏━•❃𓊈𒆜Oᴡɴᴇʀ Dᴇᴛᴀɪʟꜱ𒆜𓊉❃•━┓   
+ ◈ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/Aswanthcreator'>❥︵₣σrεvëɾ⌁</a>
+‿︵‿︵‿︵‿୨❤୧‿︵‿︵‿︵‿
+</b>"""
+
     HELP_TXT = """<b>
     
 ✨ ʜᴏᴡ ᴛᴏ ʀᴇǫᴜᴇꜱᴛ ᴅʀᴀᴍᴀꜱ & ᴍᴏᴠɪᴇꜱ ✨  
@@ -33,7 +37,7 @@ class script(object):
 
     ABOUT_TXT = """<b>
 <blockquote>🎭 Mʏ Nᴀᴍᴇ: <a href=https://t.me/{}>{}</a></blockquote>
-<blockquote>🤖 Cʀᴇᴀᴛᴏʀ: <a href={}>❥︵₣σrεvëɾ⌁</a></blockquote>
+<blockquote>🤖 Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Aswanthcreator'>❥︵₣σrεvëɾ⌁</a></blockquote>
 <blockquote>⚙️ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a></blockquote>
 <blockquote>🍿 Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a></blockquote>
 <blockquote>⚙️ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://heroku.com/'>𝐇𝖾𝗋ⱺ𝗄υ</a></blockquote>
@@ -398,11 +402,9 @@ sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.</b>"""
 
-    SOURCE_TXT ="""<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ : 👇 </b>
-
-This Is An Open-Source Project. You Can Use It Freely, But Selling The Source Code Is Strictly Prohibited.\n
-ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://github.com/DreamXBotz/Auto_Filter_Bot.git>𝓓𝓻𝓮𝓪𝓶𝔁𝓑𝓸𝓽𝔃</a>\n """
-
+    SOURCE_TXT = """<blockquote>Nᴏᴛᴇ:</blockquote>
+<blockquote>✭ Tʜɪs Pʀᴏᴊᴇᴄᴛ Isɴ'ᴛ Oᴘᴇɴ–Sᴏᴜʀᴄᴇ. Iғ Yᴏᴜ Nᴇᴇᴅ Aɴʏ Hᴇʟᴘ Oʀ Hᴀᴠᴇ Qᴜᴇsᴛɪᴏɴs, Yᴏᴜ Cᴀɴ Mᴇssᴀɢᴇ Us Dɪʀᴇᴄᴛʟʏ</blockquote>
+<blockquote>✭ Cᴏɴᴛᴀᴄᴛ ᴛᴏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ ☟.</blockquote>"""
     SETTING_TXT = """    
 <u>ꜱᴇᴛᴛɪɴɢꜱ</u> :
 - ꜱᴇᴛᴛɪɴɢꜱ ɪꜱ ᴛʜᴇ ᴍᴏꜱᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ꜰᴇᴀᴛᴜʀᴇ ᴏꜰ ᴛʜɪꜱ ʙᴏᴛ.
