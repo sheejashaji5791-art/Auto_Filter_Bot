@@ -1452,13 +1452,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('× Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton(' Eᴀʀɴ Mᴏɴᴇʏ', callback_data='help'),
+                    InlineKeyboardButton(' Eᴀʀɴ Mᴏɴᴇʏ', callback_data='earn'),
                     InlineKeyboardButton(' Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/Cinema_Lokam_Movies')
                 ],[
                     InlineKeyboardButton('Hᴇʟᴘ', callback_data="help"),
                     InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data="about")
                 ],[
-                    InlineKeyboardButton('Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟs', callback_data="update")
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', callback_data="support")
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -1601,6 +1601,51 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.SOURCE_TXT,
             reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "earn":
+        buttons = [[
+            InlineKeyboardButton('✉️ Cᴏɴᴛᴀᴄᴛ', url='https://t.me/Aswanthcreator'),
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(text="● ◌ ◌")
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id,
+            query.message.id,
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.EARN_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "support":
+        buttons = [[
+            InlineKeyboardButton('🍀 Mᴀɪɴ Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🍀', url='https://t.me/Cinema_Lokam_Movies'),
+        ],[
+            InlineKeyboardButton ('🍂 Cᴏᴍᴘʟᴀɪɴᴛs  Group 🍂', url='https://t.me/+gfhLEXcUpzc2ZGZl'),
+        ],[
+            InlineKeyboardButton ('🥀 Mᴀɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🥀', url='https://t.me/Cinema_Updates_OTT'),
+        ],[
+            InlineKeyboardButton('♙ Hᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('Cʟᴏsᴇ ⊝', callback_data='close_data'),
+        ],[
+            InlineKeyboardButton(' ❗ Dɪsᴄʟᴀɪᴍᴇʀ ❗', callback_data='disclaimer'),
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(text="● ◌ ◌")
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id,
+            query.message.id,
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.CHANNELS.format(temp.U_NAME, temp.B_NAME, OWNER_LNK),
+            reply_markup=reply_markup,
+            disable_web_page_preview=True,
             parse_mode=enums.ParseMode.HTML
         )
 
